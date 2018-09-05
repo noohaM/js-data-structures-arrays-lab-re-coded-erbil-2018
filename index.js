@@ -12,9 +12,3 @@ function destructivelyPrependDriver(){
   return drivers.pop(name)
 }
 
-function destructivelyPrependDriver(name){
-  return drivers.unshift(name)
-}
-function destructivelyPrependDriver(name){
-  return drivers.shift(name)
-}
